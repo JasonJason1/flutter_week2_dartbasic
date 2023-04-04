@@ -2,6 +2,7 @@ late int globalVar;
 
 void main() {
   // g_var = 0;
+  // ignore: unused_local_variable
   int x;
   x = 10;
   var num = 10.78.round();
@@ -18,6 +19,6 @@ void main() {
   final NAME;
   const AGE = 20;
 
-  // NAME = "Doe";
+  NAME = "Doe";
   print("Hello World");
 }
